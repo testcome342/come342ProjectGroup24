@@ -9,14 +9,14 @@ public class Client {
 	 
 	 public void getClientCampaigns(){
 			
-			System.out.println("100 TL indirim kazandınız. Müşteri numaranız " + id);
+			System.out.println(id + " Müşteri Numaranız ile 100 TL indirim kazandınız...");
 		}
 		
 		public void addNewCampaign() {
 			
 			ArrayList <String> campaigns = new ArrayList <String> ();	
 			campaigns.add("Sene sonuna kadar geçerli indiriminizi dilediğiniz zaman kullanabilirsiniz...");
-			campaigns.add("1 hafta içinde yapacağınız işlemlerde % 25 indirim kazanabilirsiniz");
+			campaigns.add("Ayrıca 1 hafta içinde yapacağınız satın alma işlemlerde % 25 indirim kazanabilirsiniz");
 			
 			System.out.println (campaigns.get(0));
 			System.out.println (campaigns.get(1));

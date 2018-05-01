@@ -19,6 +19,8 @@ public class Main {
 		System.out.println("Müşteri Temsilcisi: "+c1.getContactName());
 		System.out.println("İletişim Maili: "+c1.getContactEmail());
 		
+		c1.getClientCampaigns();
+		c1.addNewCampaign();
 				
 		
 		StaffMember s1 = new AdministrativeStaff(1,"merhaba","","");
