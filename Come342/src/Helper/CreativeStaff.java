@@ -26,9 +26,13 @@ public void assignStaffContact() {
 	public void AddNewStaff() {
 		
 		ArrayList <String> staff = new ArrayList <String> ();	
-		staff.add("8,ilkay sever ,23.03.2018,ilkaysever92@gmail.com");
+		staff.add("Elenay Kemerkapulu");
+		staff.add("23.03.2018");
+		staff.add("elenay@gmail.com");
 		
-		System.out.println ("İşe Alınan Tasarımcı =  " + staff.get(0));
+		System.out.println ("İşe Alınan Tasarımcı Adı =  " + staff.get(0));
+		System.out.println ("İşe Başlama Tarihi =  " + staff.get(1));
+		System.out.println ("Email Adresi =  " + staff.get(2));
 		
 	}
 

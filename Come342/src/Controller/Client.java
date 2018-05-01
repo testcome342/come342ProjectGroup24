@@ -5,18 +5,18 @@ public class Client {
 		
 	public String companyName,companyAddress,companyEmail;
 	public String contactName,contactEmail;
-	int id=1; 
+	int id=18; 
 	 
 	 public void getClientCampaigns(){
 			
-			System.out.println(id + " Müşteri Numaranız ile 100 TL indirim kazandınız...");
+			System.out.println(id + " Nolu Çekiliş Numaranız ile 100 TL indirim kazandınız...");
 		}
 		
 		public void addNewCampaign() {
 			
 			ArrayList <String> campaigns = new ArrayList <String> ();	
 			campaigns.add("Sene sonuna kadar geçerli indiriminizi dilediğiniz zaman kullanabilirsiniz...");
-			campaigns.add("Ayrıca 1 hafta içinde yapacağınız satın alma işlemlerde % 25 indirim kazanabilirsiniz");
+			campaigns.add("Ayrıca 1 hafta içinde yapacağınız satın alma işlemlerinde % 25 indirim kazanabilirsiniz...");
 			
 			System.out.println (campaigns.get(0));
 			System.out.println (campaigns.get(1));
