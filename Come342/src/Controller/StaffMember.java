@@ -24,6 +24,7 @@ public class StaffMember {
 			
 			System.out.println (staffContact.get(0));
 			System.out.println (staffContact.get(1));
+			System.out.println (staffContact.get(2));
 					
 		}
 		public StaffMember(int alinanStaffNo,String alinanStaffName,String alinanStartDate,String alinanEmailAddress) {

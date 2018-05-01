@@ -1,5 +1,9 @@
 package Controller;
 
+import Model.Advert;
+import Model.MagazineAdvert;
+import Model.NewspaperAdvert;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -22,7 +26,12 @@ public class Main {
 		
 		s1.getStaffDetails();
 		s1.assignStaffContact();
-			
+		
+		Advert a1 = new MagazineAdvert("", "", 1.0, 2.0);
+		((MagazineAdvert) a1).Advert();
+		Advert a2 = new NewspaperAdvert("", "", 1.0, 2.0);
+		((NewspaperAdvert) a2).Advert();
+		
 	}
 		
 }
