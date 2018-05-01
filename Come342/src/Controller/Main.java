@@ -1,5 +1,7 @@
 package Controller;
 
+import Helper.AdministrativeStaff;
+import Helper.CreativeStaff;
 import Model.Advert;
 import Model.MagazineAdvert;
 import Model.NewspaperAdvert;
@@ -19,13 +21,11 @@ public class Main {
 		
 				
 		
-		c1.getClientCampaigns();
-		c1.addNewCampaign();
+		StaffMember s1 = new AdministrativeStaff(1,"merhaba","","");
+		((AdministrativeStaff) s1).StaffMember();
+		StaffMember s2 = new CreativeStaff(2,"","","");
+		((CreativeStaff) s2).AddNewStaff();
 		
-		StaffMember s1 = new StaffMember(1,"Berkan Şevli","1 Ocak 2009","ayberkkoklen@gmail.com");
-		
-		s1.getStaffDetails();
-		s1.assignStaffContact();
 		
 		Advert a1 = new MagazineAdvert("", "", 1.0, 2.0);
 		((MagazineAdvert) a1).Advert();
