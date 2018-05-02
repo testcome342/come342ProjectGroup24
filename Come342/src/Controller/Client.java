@@ -5,11 +5,11 @@ public class Client {
 		
 	public String companyName,companyAddress,companyEmail;
 	public String contactName,contactEmail;
-	int id=18; 
+	int id=1; 
 	 
 	 public void getClientCampaigns(){
 			
-			System.out.println(id + " Nolu Çekiliş Numaranız ile 100 TL indirim kazandınız...");
+			System.out.println(id + " Müşteri Numaranız ile 100 TL indirim kazandınız...");
 		}
 		
 		public void addNewCampaign() {
@@ -18,8 +18,10 @@ public class Client {
 			campaigns.add("Sene sonuna kadar geçerli indiriminizi dilediğiniz zaman kullanabilirsiniz...");
 			campaigns.add("Ayrıca 1 hafta içinde yapacağınız satın alma işlemlerinde % 25 indirim kazanabilirsiniz...");
 			
+			
 			System.out.println (campaigns.get(0));
 			System.out.println (campaigns.get(1));
+			
 					
 		}
 		public Client(String alinancompanyName,String alinancompanyAddress,String alinancompanyEmail,String alinancontactName,String alinancontactEmail,int alinanid) {

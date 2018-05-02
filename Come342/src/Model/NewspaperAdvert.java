@@ -9,7 +9,7 @@ public class NewspaperAdvert extends Advert {
 		super(targetCompletionDate, targetCompletionDate, actualAdvertCost, actualAdvertCost);
 		
 		ArrayList <String> newspaperAdvert = new ArrayList <String> ();	
-		newspaperAdvert.add("BlackFriyday de bütün Ürünlerde %30 İndirim Kazandınız...");
+		newspaperAdvert.add("BlackFriyday de bütün Ürünlerde %30 İndirim Var...");
 		
 		
 		System.out.println (newspaperAdvert.get(0));

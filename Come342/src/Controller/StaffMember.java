@@ -7,10 +7,10 @@ public abstract  class  StaffMember {
 	
 	public StaffMember(int staffNo, String staffName, String staffStartDate, String staffEmailAddress) {
 		super();
-		StaffNo = staffNo;
-		StaffName = staffName;
-		StaffStartDate = staffStartDate;
-		StaffEmailAddress = staffEmailAddress;
+		StaffNo = 3;
+		StaffName = "Ayberk Köklen";
+		StaffStartDate = "12.08.2008";
+		StaffEmailAddress = "ayberkkoklen@gmail.com";
 	}
 	
 	

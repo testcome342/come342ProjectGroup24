@@ -15,7 +15,8 @@ public void assignStaffContact() {
 		
 		ArrayList <String> staffContact = new ArrayList <String> ();
 
-		staffContact.add("Onur Dağdelen 05322249268");
+		
+		staffContact.add("Ayın elemanı Onur Dağdelen 05322249268");
 
 		System.out.println (staffContact.get(0));
 

@@ -23,16 +23,23 @@ public class Main {
 		c1.addNewCampaign();
 				
 		
-		StaffMember s1 = new AdministrativeStaff(1,"merhaba","","");
+		StaffMember s1 = new AdministrativeStaff(1,"","","");
 		((AdministrativeStaff) s1).StaffMember();
 		StaffMember s2 = new CreativeStaff(2,"","","");
 		((CreativeStaff) s2).AddNewStaff();
+		StaffMember s3 = new CreativeStaff(3,",","","");
+		((CreativeStaff)s3).assignStaffContact();
+		s1.getStaffDetails();
 		
 		
 		Advert a1 = new MagazineAdvert("", "", 1.0, 2.0);
 		((MagazineAdvert) a1).Advert();
 		Advert a2 = new NewspaperAdvert("", "", 1.0, 2.0);
 		((NewspaperAdvert) a2).Advert();
+		
+		
+		
+		
 		
 	}
 		
